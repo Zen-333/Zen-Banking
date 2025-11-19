@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@reference "tailwindcss/theme.css";
+
 
 * {
   margin: 0;
@@ -357,10 +359,6 @@
 
   .footer_image {
     @apply relative size-5 max-xl:w-full max-xl:flex max-xl:justify-center max-xl:items-center;
-  }
-
-  .footer_image-mobile {
-    @apply relative size-5;
   }
 
   /* Sidebar */
